@@ -5,13 +5,127 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 </head>
-<style>
+	<style>
+		* {
+        box-sizing: border-box;
+}
 
-</style>
+header, footer, section, aside, main{
+        padding: 1em;
+}
+
+
+header, footer{
+        color: white;
+        background-color:  #1976D2;
+        flex-grow: 1;
+}
+
+aside{
+        display: flex;
+        justify-content: center;
+        color: #212121;
+        background-color: #BBDEFB;
+        flex-grow: 3;
+}
+section{
+        background-color: #FF4081;
+        color: white;
+        flex-grow: 1;
+        margin: 0.5em;
+}
+
+main{
+        background-color: #2196F3;
+        color: white;
+        flex-grow: 7;
+}
+
+body{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        height: 100vh;
+        width: 100vw;
+        margin:0;
+}
+
+.row{
+        display: flex;
+        flex-direction: row;
+}
+
+div.row{
+        flex-grow: 8;
+}
+
+.col{
+        display: flex;
+        flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  div.row{
+        flex-direction: column;
+   }
+}
+	</style>
 <body>
+	<header>Header</header>
+	<div class= "row">
+        <aside class= "col">
+                
+                <section>Section 1</section>
+                <section>Section 2</section>
+        </aside>
+        <main>Main</main>
+	</div>
+        <footer>Footer</footer>
+</body>
+</html>
+<!--<style>
+	h1::first-letter{
+		color: rgb(192, 12, 51);
+	} 
 
+	*{
+		box-sizing: border-box;
+		width:200;
+		height:400;
+		padding:20;
+	}
+	p.fixed {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+
+	}
+	
+</style>
+<h1> 
+	Leticia "Lettie" Garcia.
+</h1>
+<body>
+	<p class= "fixed">
+		Next Hex Member
+	<p>
+		Leticia met Arthur while both were stationed
+		in the same base, with her acting as the field medic of her unit in the Libertatian Army.
+		With her and Arthur as the only survivors in battle, Leticia treated Arthur's wounds and joined the
+		International Crisis Response (ICR) alongside him, Aoi, and Quincy.
+	</p>
+	<br>
+	<p>
+		Leticia was one of the first volunteers that came 
+		forward to Dr. Entrati's offer to receive more than healing. They were then infused with a Helminth
+		serum from Albrecht's time, which in turn morphed and alchemized them into partial Warframes. Their bodies became newly attuned to the Void,
+		whilst their minds were kept intact.
+	</p>
+	<br>
+	<p>
+	Repeated samples were taken from the now-transformed volunteers by Albrecht himself.
+	It was implied by the doctor himself that their humanity may not last, and that it may be only a matter of time until
+	the Helminth finally swallows them whole.
+	</p> --->
 
 
 	
-</body>
-</html>
